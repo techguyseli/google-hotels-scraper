@@ -1,6 +1,6 @@
 normal_count = 2
 line_num = 1
-sep = '/SEPARATOR/'
+sep = '§'
 file_path = './data/csv_data/cleaned_ratings.csv'
 
 sep_exeeded = []

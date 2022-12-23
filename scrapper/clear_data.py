@@ -101,7 +101,7 @@ def clean_data():
             c_ratings_f = open('./data/csv_data/cleaned_ratings.csv', 'w')
 
             # the separator for the ratings files
-            rating_sep = '/SEPARATOR/'
+            rating_sep = '§'
 
             # write the header of the cleaned ratings
             c_ratings_f.write('hotel_id' + rating_sep + 'comment' + rating_sep + 'rating\n')

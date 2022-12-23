@@ -71,7 +71,7 @@ def get_hotel_ratings(hotel_num, hotel_link):
 # the main function
 def main():
     # custom separator
-    sep = '/SEPARATOR/'
+    sep = '§'
 
     # file mode
     fmode = 'w'
