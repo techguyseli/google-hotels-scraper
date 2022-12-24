@@ -7,18 +7,18 @@ It's basically a python 3 scraper that scraps a few Marakesh and Tangier hotels'
 This project is not maintained so it may not work in the future, however it still serves as good learning material on web scraping.
 
 # Files and Directories
-[scraper](https://github.com/techguyseli/google-hotels-scrapper/tree/main/scraper) : This directory contains the actual python scripts, the firefox driver that the scripts use, the downloaded html pages and the cleaned csv data.
+[scraper](https://github.com/techguyseli/google-hotels-scraper/tree/main/scraper) : This directory contains the actual python scripts, the firefox driver that the scripts use, the downloaded html pages and the cleaned csv data.
 
-[requirements.txt](https://github.com/techguyseli/google-hotels-scrapper/blob/main/requirements.txt) : This file contains the dependencies needed for the python scripts to run.
+[requirements.txt](https://github.com/techguyseli/google-hotels-scraper/blob/main/requirements.txt) : This file contains the dependencies needed for the python scripts to run.
 
 # Usage
-Open a terminal from this directory (the root of this git repository), move to the [scraper](https://github.com/techguyseli/google-hotels-scrapper/tree/main/scraper) directory:
+Open a terminal from this directory (the root of this git repository), move to the [scraper](https://github.com/techguyseli/google-hotels-scraper/tree/main/scraper) directory:
 ```bash
 cd scraper
 
 ```
 
-Download the dependencies in [requirements.txt](https://github.com/techguyseli/google-hotels-scrapper/blob/main/requirements.txt) either globaly or using a python virtual environment (this project was writen in python 3.10.8):
+Download the dependencies in [requirements.txt](https://github.com/techguyseli/google-hotels-scraper/blob/main/requirements.txt) either globaly or using a python virtual environment (this project was writen in python 3.10.8):
 ```bash
 pip install -r requirements.txt
 ```
@@ -47,9 +47,9 @@ python ratings_scraper.py
 ```
 
 This next script creates the final cleaned data files that are ready for use : 
-- [cleaned_hotels.csv](https://github.com/techguyseli/google-hotels-scrapper/blob/main/scrapper/data/csv_data/cleaned_hotels.csv)
-- [cleaned_images.csv](https://github.com/techguyseli/google-hotels-scrapper/blob/main/scrapper/data/csv_data/cleaned_images.csv)
-- [cleaned_ratings.csv](https://github.com/techguyseli/google-hotels-scrapper/blob/main/scrapper/data/csv_data/cleaned_hotels.csv)
+- [cleaned_hotels.csv](https://github.com/techguyseli/google-hotels-scraper/blob/main/scraper/data/csv_data/cleaned_hotels.csv)
+- [cleaned_images.csv](https://github.com/techguyseli/google-hotels-scraper/blob/main/scraper/data/csv_data/cleaned_images.csv)
+- [cleaned_ratings.csv](https://github.com/techguyseli/google-hotels-scraper/blob/main/scraper/data/csv_data/cleaned_hotels.csv)
 ```bash
 python clean_data.py
 ```
