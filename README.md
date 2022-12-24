@@ -49,7 +49,7 @@ python ratings_scraper.py
 This next script creates the final cleaned data files that are ready for use : 
 - [cleaned_hotels.csv](https://github.com/techguyseli/google-hotels-scraper/blob/main/scraper/data/csv_data/cleaned_hotels.csv)
 - [cleaned_images.csv](https://github.com/techguyseli/google-hotels-scraper/blob/main/scraper/data/csv_data/cleaned_images.csv)
-- [cleaned_ratings.csv](https://github.com/techguyseli/google-hotels-scraper/blob/main/scraper/data/csv_data/cleaned_hotels.csv)
+- [cleaned_ratings.csv](https://github.com/techguyseli/google-hotels-scraper/blob/main/scraper/data/csv_data/cleaned_ratings.csv)
 ```bash
 python clean_data.py
 ```
