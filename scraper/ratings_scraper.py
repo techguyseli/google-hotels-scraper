@@ -88,10 +88,6 @@ def main():
         # iterate through each line in the hotels csv file
         for line in hotels_file:
 
-            # compensating for the inexistence of the file 180.html
-            if i == 180:
-                i +=1
-
             # getting the hotel link
             hotel_link = line.split(',')[0]
 

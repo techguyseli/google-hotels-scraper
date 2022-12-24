@@ -49,11 +49,6 @@ def main():
         # iterate through each hotel line
         for line in f:
 
-            # temp
-            if i <= 179:
-                i += 1
-                continue
-
             # get the hotel link
             hotel_link = line.split(',')[0] 
 
